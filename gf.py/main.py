@@ -98,7 +98,7 @@ if "result" not in st.session_state:
 st.markdown('<p class="title-text">check She Loves u…?by faizu 🌸</p>', unsafe_allow_html=True)
 st.markdown('<p class="subtitle-text">Enter a name and let fate decide</p>', unsafe_allow_html=True)
 
-name = st.text_input("", placeholder="Girlfriend ka naam to dal chutiye .", label_visibility="collapsed")
+name = st.text_input("", placeholder="Girlfriend ka naam  dal chutiye .", label_visibility="collapsed")
 
 if st.button("🌸 Ask the flower"):
     if name.strip():
@@ -108,7 +108,7 @@ if st.button("🌸 Ask the flower"):
         if len(st.session_state.history) > 5:
             st.session_state.history.pop()
     else:
-        st.warning("Pehle naam toh dalo! 😅")
+        st.warning("Pehle naam toh dal maderlode 😅")
 
 if st.session_state.result:
     r = st.session_state.result
