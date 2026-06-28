@@ -95,7 +95,7 @@ if "history" not in st.session_state:
 if "result" not in st.session_state:
     st.session_state.result = None
 
-st.markdown('<p class="title-text">cehck She Loves u…?by faizu 🌸</p>', unsafe_allow_html=True)
+st.markdown('<p class="title-text">check She Loves u…?by faizu 🌸</p>', unsafe_allow_html=True)
 st.markdown('<p class="subtitle-text">Enter a name and let fate decide</p>', unsafe_allow_html=True)
 
 name = st.text_input("", placeholder="Girlfriend ka naam to dal chutiye .", label_visibility="collapsed")
